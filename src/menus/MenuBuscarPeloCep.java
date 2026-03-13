@@ -11,9 +11,11 @@ import exceptions.CepInvalidoException;
 
 public class MenuBuscarPeloCep {
     private Scanner leitura;
+    
 
     public MenuBuscarPeloCep(Scanner leitura){
         this.leitura = leitura;
+        
     }
     
     public void iniciar() throws IOException{

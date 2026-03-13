@@ -5,9 +5,28 @@
     "localidade": "Cariacica",
     "estado": "Espírito Santo"
   }
-][
+,
   {
-    "cep": "29149-800",
+    "cep": "29112-390",
+    "bairro": "Rio Marinho",
+    "localidade": "Vila Velha",
+    "estado": "Espírito Santo"
+  }
+,
+  {
+    "cep": "29157-761",
+    "bairro": "Bubú",
+    "localidade": "Cariacica",
+    "estado": "Espírito Santo"
+  },
+  {
+    "cep": "29149-736",
+    "bairro": "Itanguá",
+    "localidade": "Cariacica",
+    "estado": "Espírito Santo"
+  },
+  {
+    "cep": "29149-569",
     "bairro": "Itanguá",
     "localidade": "Cariacica",
     "estado": "Espírito Santo"

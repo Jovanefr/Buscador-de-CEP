@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.Scanner;
 
 import ComunicacaoApi.ComunicacaoApiEndereco;
+import arquivos.EscritaArquivos;
 import arquivos.LeituraArquivos;
 
 public class MenuBuscarPeloEndereco{
@@ -29,7 +30,7 @@ public class MenuBuscarPeloEndereco{
             ComunicacaoApiEndereco novaComunicacao = new ComunicacaoApiEndereco(endereco);
 
             LeituraArquivos novaLeitura = new LeituraArquivos(novaComunicacao);
-            //new EscritaArquivos(novaLeitura.getArquivoEscrita());
+            new EscritaArquivos(novaLeitura.getArquivoEscrita());
 
             System.out.println(novaLeitura.getArquivoEscrita());
         } catch (NullPointerException e) {

@@ -1,5 +1,6 @@
 package menus;
 
+
 import java.io.IOException;
 import java.util.Scanner;
 
@@ -11,6 +12,7 @@ public class MenuPrincipal {
         
         Scanner leitura = new Scanner(System.in);
         int opcao;
+
         do{
             System.out.println("Selecione uma das opcoes abaixo");
             System.out.println("""
